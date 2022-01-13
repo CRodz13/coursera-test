@@ -1,0 +1,110 @@
+.navbar-brand {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.navbar {
+  border-bottom: 3px solid;
+  border-top: 3px solid;
+  background-color: #999999FF;
+}
+.navbar .container-fluid {
+  background-color: #999999FF;
+}
+
+.title {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.row {
+	margin: 20px;
+	position: relative;
+}
+
+.row button:hover, .row button:focus {
+	text-decoration: none;
+}
+
+
+.accordion-body {
+	background-color: #999999FF;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	width: 100%;
+	margin: auto;
+}
+.accordion-flush .accordion-item .accordion-button {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 0;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+.accordion-button {
+  position: relative;
+  display: block;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #212529;
+  text-align: center;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #999999FF;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #999999FF;
+    outline: 0;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
+
+
+@media (min-width: 1200px) {
+  .container{
+      max-width: 970px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav-item {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+	.nav-item {
+		display: none !important;
+	}
+}
+
